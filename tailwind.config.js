@@ -10,9 +10,9 @@ module.exports = {
         dimWhite: "rgba(255, 255, 255, 0.7)",
         dimBlue: "rgba(9, 151, 124, 0.1)",
         gold: {
-          default: '#FFD700',  // You can adjust this hex value to the specific shade of gold you prefer
-          light: '#FFEC8B',   // Optional: Light shade of gold
-          dark: '#B8860B',    // Optional: Dark shade of gold
+          default: '#FFD700',  
+          light: '#FFEC8B',   
+          dark: '#B8860B',    
         },
       },
       fontFamily: {
