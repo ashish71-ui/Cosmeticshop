@@ -1,12 +1,24 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
 .blue__gradient {
     background: linear-gradient(180deg, rgba(188, 165, 255, 0) 0%, #214d76 100%);
     filter: blur(123px);
   }
+
   
   .pink__gradient {
     background: linear-gradient(90deg, #f4c4f3 0%, #d10ace 100%);
     filter: blur(900px);
+  }
+  .feature-card:hover {
+    background: linear-gradient(90deg, #f4c4f3 0%, #b405ae 100%) ;
+    box-shadow: 0px 20px 100px -10px rgba(203, 15, 15, 0.1);
+    cursor: pointer;
+  
+  }
+  .bg-discount-gradient {
+    background: linear-gradient(125.17deg, #272727 0%, #11101d 100%);
   }
