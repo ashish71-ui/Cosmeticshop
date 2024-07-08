@@ -5,7 +5,7 @@ import image from '../assets/luxhero4.png'
 
 
 const FeatureCard = ({ title, content, index }) => (
-  <div className={`flex flex-row p-6 rounded-[20px] ${index !== features.length - 1 ? "mb-5" : "mb-0"} feature-card w-[450px] `}>
+  <div className={`flex flex-row p-6 rounded-[20px] border border-gold-light ${index !== features.length - 1 ? "mb-5" : "mb-0"} feature-card w-[450px] `}>
    
     <div className='flex-1 flex flex-col ml-3'>
       <h4 className='font-poppins font-semibold  text-[24px] leading-[23px] text-gold-light'>{title}</h4>
