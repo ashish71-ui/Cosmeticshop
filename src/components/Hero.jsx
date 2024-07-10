@@ -7,11 +7,11 @@ const Hero = () => (
     <div
       className={"flex-1 ${styles.flexStart} flex-col xl:px-0 sm:px-16 md:px-6"}
     >
-       <div className="flex flex-row items-center py-[6px] px-4 bg-gradient-to-r from-indigo-700 via-purple-700 to-pink-700 w-[350px] rounded-[10px] mb-2">
+       <div className="flex flex-row items-center py-[6px] px-4  w-[350px] rounded-[10px] mb-2">
         
         <p className={`${styles.paragraph} ml-2 `}>
           <span className="text-white ">Get all</span> Services for {" "}
-          <span className="text-white ">Discounted</span> price
+          <span className="text-gold-light ">Discounted</span> price
         </p>
       </div>
       
@@ -38,6 +38,7 @@ const Hero = () => (
   <div className="absolute z-[0] w-[40%] h-[35%] top-0 blue__gradient"/>
   <div className="absolute z-[1] w-[80%] h-[80%] rounded-full bottom-40 pink__gradient"/>
   <div className="absolute z-[0] w-[50%] h-[50%] right-20 bottom-20 pink__gradient"/>
+  <div className="absolute z-[0] w-[50%] h-[50%] right-20 bottom-20 red__gradient"/>
 </div>
 
 

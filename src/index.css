@@ -13,6 +13,11 @@
     background: linear-gradient(90deg, #f4c4f3 0%, #d10ace 100%);
     filter: blur(900px);
   }
+  
+  .red__gradient {
+    background: linear-gradient(90deg, #eb0404 0%, #670c21 100%);
+    filter: blur(900px);
+  }
   .feature-card:hover {
     background: linear-gradient(90deg, #f4c4f3 0%, #b405ae 100%) ;
     box-shadow: 0px 20px 100px -10px rgba(203, 15, 15, 0.1);
